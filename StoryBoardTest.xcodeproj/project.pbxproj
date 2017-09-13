@@ -13,6 +13,13 @@
 		0DB215C61F68D5FD0070326D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB215C41F68D5FD0070326D /* Main.storyboard */; };
 		0DB215C81F68D5FD0070326D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB215C71F68D5FD0070326D /* Assets.xcassets */; };
 		0DB215CB1F68D5FD0070326D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB215C91F68D5FD0070326D /* LaunchScreen.storyboard */; };
+		0DB215D41F68D63E0070326D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215D31F68D63E0070326D /* TestViewController.m */; };
+		0DB215D71F68DB6E0070326D /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215D61F68DB6E0070326D /* PushViewController.m */; };
+		0DB215DA1F68DF0F0070326D /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215D91F68DF0F0070326D /* FirstTableViewController.m */; };
+		0DB215DD1F68E4900070326D /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215DC1F68E4900070326D /* ModalViewController.m */; };
+		0DB215E01F68FFDA0070326D /* PushDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215DF1F68FFDA0070326D /* PushDetailViewController.m */; };
+		0DB215E31F69058D0070326D /* MyCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215E21F69058D0070326D /* MyCustomSegue.m */; };
+		0DB215E61F690B7C0070326D /* MyCustomPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB215E51F690B7C0070326D /* MyCustomPopSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		0DB215C71F68D5FD0070326D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB215CA1F68D5FD0070326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DB215CC1F68D5FD0070326D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB215D21F68D63E0070326D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0DB215D31F68D63E0070326D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0DB215D51F68DB6E0070326D /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		0DB215D61F68DB6E0070326D /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		0DB215D81F68DF0F0070326D /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		0DB215D91F68DF0F0070326D /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		0DB215DB1F68E4900070326D /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		0DB215DC1F68E4900070326D /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		0DB215DE1F68FFDA0070326D /* PushDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushDetailViewController.h; sourceTree = "<group>"; };
+		0DB215DF1F68FFDA0070326D /* PushDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushDetailViewController.m; sourceTree = "<group>"; };
+		0DB215E11F69058D0070326D /* MyCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomSegue.h; sourceTree = "<group>"; };
+		0DB215E21F69058D0070326D /* MyCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomSegue.m; sourceTree = "<group>"; };
+		0DB215E41F690B7C0070326D /* MyCustomPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomPopSegue.h; sourceTree = "<group>"; };
+		0DB215E51F690B7C0070326D /* MyCustomPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomPopSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,20 @@
 				0DB215BF1F68D5FD0070326D /* AppDelegate.m */,
 				0DB215C11F68D5FD0070326D /* ViewController.h */,
 				0DB215C21F68D5FD0070326D /* ViewController.m */,
+				0DB215D21F68D63E0070326D /* TestViewController.h */,
+				0DB215D31F68D63E0070326D /* TestViewController.m */,
+				0DB215D81F68DF0F0070326D /* FirstTableViewController.h */,
+				0DB215D91F68DF0F0070326D /* FirstTableViewController.m */,
+				0DB215D51F68DB6E0070326D /* PushViewController.h */,
+				0DB215D61F68DB6E0070326D /* PushViewController.m */,
+				0DB215DE1F68FFDA0070326D /* PushDetailViewController.h */,
+				0DB215DF1F68FFDA0070326D /* PushDetailViewController.m */,
+				0DB215DB1F68E4900070326D /* ModalViewController.h */,
+				0DB215DC1F68E4900070326D /* ModalViewController.m */,
+				0DB215E11F69058D0070326D /* MyCustomSegue.h */,
+				0DB215E21F69058D0070326D /* MyCustomSegue.m */,
+				0DB215E41F690B7C0070326D /* MyCustomPopSegue.h */,
+				0DB215E51F690B7C0070326D /* MyCustomPopSegue.m */,
 				0DB215C41F68D5FD0070326D /* Main.storyboard */,
 				0DB215C71F68D5FD0070326D /* Assets.xcassets */,
 				0DB215C91F68D5FD0070326D /* LaunchScreen.storyboard */,
@@ -151,8 +186,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB215C31F68D5FD0070326D /* ViewController.m in Sources */,
+				0DB215D71F68DB6E0070326D /* PushViewController.m in Sources */,
+				0DB215E61F690B7C0070326D /* MyCustomPopSegue.m in Sources */,
+				0DB215DD1F68E4900070326D /* ModalViewController.m in Sources */,
+				0DB215DA1F68DF0F0070326D /* FirstTableViewController.m in Sources */,
 				0DB215C01F68D5FD0070326D /* AppDelegate.m in Sources */,
+				0DB215D41F68D63E0070326D /* TestViewController.m in Sources */,
 				0DB215BD1F68D5FD0070326D /* main.m in Sources */,
+				0DB215E01F68FFDA0070326D /* PushDetailViewController.m in Sources */,
+				0DB215E31F69058D0070326D /* MyCustomSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
